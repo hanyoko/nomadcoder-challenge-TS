@@ -1,50 +1,42 @@
+What is the syntax to type an array of booleans?
+-> : boolean[]
 
--> 
+In this code:
 
+const player: {
+    name?:string,
+    age:number
+} = {
+    name:"nico",
+    age:44
+}
+-> `name` is optional. `age` is required
 
--> 
+For what do we use Type Aliases?
+-> To create a new name for a type
 
+What is the syntax to say that a function returns an array of strings?
+-> function name(): string[]
 
--> 
+Does the readonly from Typescript compile to JavaScript?
+-> Yes			/-> No
 
+Why do we use Tuples for?
+-> To specify an array with a min. length and type positions
 
--> 
+We should try to use any as much as possible.
+-> No
 
+What happens when we use any?
+-> We escape the TS world
 
--> 
+What do we have to do before using a variable of type unknown?
+-> We have to first check with typeof
 
-.
--> 
+When do we use void?
+-> When a function does not return anything
 
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
+When do we use never?
+-> When a path of code should never run
 
 
--> 
-
-
--> 

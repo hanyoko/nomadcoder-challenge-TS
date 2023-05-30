@@ -1,13 +1,3 @@
-23/05/30
-
-let number : number[] = [1, 2];
-let string : string[] = ["li", "1"];
-let boolean : boolean[] = [true];
-
-readolny : 읽기 전용
-
-------------------------------------------
-
 type Age = number;
 type Name = string;
 type Player = {
