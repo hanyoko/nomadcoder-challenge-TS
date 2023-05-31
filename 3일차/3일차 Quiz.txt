@@ -1,0 +1,18 @@
+What is call signature?
+-> Is the type of the arguments and return value of a function
+
+A call signature has the implementation of the function.
+-> Yes		/-> No
+
+Call Signatures will be compiled into Javascript
+-> No
+
+We can use the same call signature for multiple functions.
+-> Yes
+
+When does 'overloading' happen?
+-> When a function has multiple call signatures
+
+When should we use function overloading?
+-> When the function should accept different argument types
+
