@@ -28,6 +28,8 @@ const player2 = {
 }
 player2.name = "yohan"
 
+/* Quiz 문제 실행 확인
 const kimchi = {
     맛있어: true
 }
+*/
