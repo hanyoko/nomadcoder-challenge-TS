@@ -1,6 +1,3 @@
-23/06/05
-
-
 //타입과 인터페이스의 차이점 정리 및 오늘 수업 복습
 
 //인터페이스를 사용해 클래스에 특정 메소드나 property를 상속하도록 강제하는 방법을 배웠다.
@@ -113,4 +110,38 @@ bear.honey2;
 //타입스크립트에게 오브젝트의 모양을 알려주기 위해서는 인터페이스를 쓰고,
 //나머지 상황에서는 타입을 사용한다.
 
+
+/* JS 변환
+//타입과 인터페이스의 차이점 정리 및 오늘 수업 복습
+const playerA = {
+    name: "nico",
+    lastName: "xxx"
+};
+const playerB = {
+    name: "nico",
+    lastName: "xxx",
+    health: 10
+};
+//type 상속
+class User {
+    constructor(firstName) {
+        this.firstName = firstName;
+    }
+}
+//interface 상속
+class User2 {
+    constructor(firstName) {
+        this.firstName = firstName;
+    }
+}
+const bear = getBear();
+bear.name;
+bear.honey;
+const bear2 = getBear2();
+bear2.name2;
+bear.honey2;
+///////
+//타입스크립트에게 오브젝트의 모양을 알려주기 위해서는 인터페이스를 쓰고,
+//나머지 상황에서는 타입을 사용한다.
+*/
 

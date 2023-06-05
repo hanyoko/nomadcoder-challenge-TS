@@ -1,50 +1,31 @@
+A readonly class property in TS will also be readonly in JS
+-> No
 
--> 
+Is this type: string[] the same as Array<string> ?
+-> Yes
 
+Is this code correct?
 
--> 
+interface Sizes = "xs" | "s" | "m" | "l" | "xl"
+-> No
 
+Is this code correct?
 
--> 
+type Player = {
+    name:string,
+    size:"xs" | "s" | "m" | "l" | "xl"
+}
+-> Yes
 
+What is the difference between a type and an interface?
+-> Interfaces can only be used to type an object, a Type can be used for any type.
 
--> 
+What is the difference between an abstract class and a "normal" class?
+-> We can't make an instance of an abstract class
 
+And abstract class will become a normal class in JS
+-> Yes
 
--> 
+When we compile the code interfaces will dissapear
+-> Yes
 
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
