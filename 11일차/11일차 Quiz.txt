@@ -1,50 +1,23 @@
+Inside of tsconfig.json what does the include property do?
+-> It tells TS where to look for code to compile
 
--> 
+Inside of tsconfig.json what does the outDir property do?
+-> It tells TS where to put the output code
 
+Inside of tsconfig.json what does the target property do?
+-> It specifies the version of JS we want to compile to the to
 
--> 
+Inside of tsconfig.json what does the lib property do?
+-> It specifies what environment the code is goin to run on
 
+What is a Type Definition file?
+-> A TS file with comments that explains to TS the types of JS code
 
--> 
+Can we use Typescript and Javascript in the same project?
+-> Yes
 
+What does //@ts-check do?
+-> It tells TS to type check JS files
 
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
-
-
--> 
+Can we use JSDoc on any JS file?
+-> No
