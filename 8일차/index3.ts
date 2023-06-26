@@ -115,7 +115,7 @@ makeUser({
     fullName: () => "xx",       //fullName은 string을 반환하는 함수여야한다.
     sayHi: (name) => "string"   //sayHi는 name을 받고, string을 반환하는 함수여야한다.
 })
-//argumenr에 인터페이스를 씀으로써 오브젝트의 모양을 지정해 줄 수도 있다.
+//argument에 인터페이스를 씀으로써 오브젝트의 모양을 지정해 줄 수도 있다.
 //argument에 설정할 수도 있고, 인터페이스를 리턴할 수도 있다는 것 !
 //하지만 인터페이스를 반환한다면, 타입을 리턴하는 것처럼 new 다음에 클래스를 넣어줘야하는 class의 리턴과는 다르다.
 //만약 인터페이스를 리턴한다면, new User처럼 쓸 필요가 없다.
